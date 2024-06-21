@@ -1,0 +1,32 @@
+ 
+table, th, td { /*นำไปใช้กับ <table>,<th>,<td>*/
+    border: 1px solid #000;
+    font-size: 16px; /*ขนาด Font*/
+    text-align: center; /*การจัดวาง text*/
+    height: 50px; 
+    width: 120px; 
+    vertical-align: middle; /*การจัดวาง text*/
+    border-collapse: collapse; /* กำหนดให้การแสดงผลเส้นขอบระหว่างเซลล์*/
+    color: white;
+    padding: 15px; /*ระยะห่าง ระหว่าง View กับ Content */
+}
+body {
+    display: flex; /*การแสดงผล*/
+    background:url(../assets/imgs/bg.png); /*เรียกใช้ พื้นหลังของเว็บไซต์*/
+    flex-direction: column; /*การจัดเรียง Items*/
+    align-items: center; /*การจัดวาง text*/
+    text-align: center; /*การจัดวาง text*/
+    justify-content: center; /*ตำแหน่ง content*/
+    height: 100vh; /*ความสูง*/
+    margin: 0; /*ขนาดของขอบ*/
+}
+.table-container { /*ไม่เขียนละ หิวข้าวไปกินข้าวดีกว่า*/
+    display: flex;
+    gap: 35px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgba(10, 10, 10, 0.5);
+}
+
